@@ -27,7 +27,7 @@ router.post("/login", async (req, res) => {
   try {
     console.log(req.body);
     const user = await User.findOne({ username: req.body.username });
-    if (!user) return res.status(401).json("User not found!okk");
+    if (!user) return res.status(401).json("User not found!");
 
     const validPassword = CryptoJS.AES.decrypt(
       user.password,
