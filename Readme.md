@@ -1,7 +1,3 @@
-# !!!Attention 
-Due to heroku stopping their free service this project has been moved here: https://github.com/rakify/eumess-vercel
-
-
 # Mess Meal Tracker Web App
 
 ## Introduction
