@@ -10,7 +10,7 @@
     "nodemailer": "^6.7.1",
     "nodemon": "^2.0.14"
   },
-  "name": "api",
+  "name": "eumessapi",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
